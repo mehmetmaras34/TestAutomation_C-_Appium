@@ -2,8 +2,8 @@
 
 Background: 
 * Getir uygulamasının giriş sayfası açılır
-* Kullanıcı adı 'hello@getir.com' olarak girilir
-* Şifre 'hello' olarak girilir
+* Kullanıcı adı 'your_email_adress' olarak girilir
+* Şifre 'your_password' olarak girilir
 * Submit butonuna tıklanır
 
 
@@ -17,9 +17,6 @@ Scenario: AddAndDeleteProductBasketFirst
 * Sepetteki ürünler silinir
 
 Scenario: AddAndDeleteProductBasketSecond
-* Kullanıcı adı 'hello@getir.com' olarak girilir
-* Şifre 'hello' olarak girilir
-* Submit butonuna tıklanır
 * Sepet kontrol edilir
 * Anasayfa butonuna tıklanır
 * Kategori sayısı kontrol edilir
